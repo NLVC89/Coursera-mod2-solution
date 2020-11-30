@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+    h1 {
+      color: green;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    h1 {
+      color:blue;
+    }
+}
+
+
+
