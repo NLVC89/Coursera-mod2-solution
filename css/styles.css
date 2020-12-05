@@ -1,24 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
 section {
-  border:black 1px solid;
-  margin: 10px;
+  border:black 2px solid;
+  float: left;
+  position: relative;
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+p, h2 {
+  margin: 0;
+  padding: 0;
   display: inline-block;
 }
 
 p {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  color: gray;
 }
 
 h2 {
-  float: right;
-  align-items: ;
+  /* float: right; */
   border: blue 1px solid;
-  margin: 0;
-  padding: 0;
   width: auto;
   text-align: center;
-  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
@@ -26,7 +38,11 @@ h2 {
 @media (min-width: 992px) {
     h1 {
       color: green;
-      
+    }
+    
+    .desktop {
+      width: 30%;
+      margin: 1.5%;
     }
 }
 
@@ -35,7 +51,17 @@ Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
       color: yellow;
-      
+    }
+
+    .tablet {
+      width: 49%;
+    }
+
+    #coffee {
+      margin-left: 2%;
+    }
+    #icecream {
+      margin-top: 2%;
     }
 }
 
@@ -43,7 +69,10 @@ Tablet View */
 @media (max-width: 767px) {
     h1 {
       color:blue;
-      
+    }
+    
+    .mobile {
+      margin: 2%;
     }
 }
 
