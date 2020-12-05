@@ -1,11 +1,41 @@
-h1 {
-    color: red;
+section {
+  border:black 1px solid;
+  margin: 10px;
+  display: inline-block;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+h2 {
+  float: right;
+  align-items: ;
+  border: blue 1px solid;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  display: inline-block;
+}
+
 
 /* Desktop View */
 @media (min-width: 992px) {
     h1 {
       color: green;
+      
+    }
+}
+
+/* 
+Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      color: yellow;
+      
     }
 }
 
@@ -13,6 +43,7 @@ h1 {
 @media (max-width: 767px) {
     h1 {
       color:blue;
+      
     }
 }
 
